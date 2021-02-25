@@ -1,5 +1,9 @@
 # JMRrec
 
+Hosting:
+
+http://androsushka78.pythonanywhere.com/
+
 To login admin page use these data:
 
 login: admin
