@@ -1,13 +1,11 @@
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponseRedirect, HttpResponse
-from django.views.decorators.csrf import csrf_exempt
 from django import views
 
 from .forms import UrlForm
 from .models import ShortUrl
 
 
-# @csrf_exempt
 
 class IndexView(views.View):
 
